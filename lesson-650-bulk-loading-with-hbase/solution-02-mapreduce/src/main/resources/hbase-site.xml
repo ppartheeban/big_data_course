@@ -1,0 +1,22 @@
+  <configuration>
+
+    <property>
+      <name>hbase.zookeeper.property.clientPort</name>
+      <value>2181</value>
+    </property>
+
+    <property>
+      <name>hbase.zookeeper.quorum</name>
+      <value>sandbox.hortonworks.com</value>
+    </property>
+
+    <property>
+      <name>zookeeper.znode.parent</name>
+      <value>/hbase-unsecure</value>
+    </property>
+    
+    <property>
+        <name>hbase.fs.tmp.dir</name>
+        <value>/tmp/hbase-staging</value>
+    </property>
+ </configuration>
